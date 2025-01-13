@@ -18,7 +18,7 @@ export default function Home() {
             "software engineer",
             "creative",
             "student",
-            "foodie & chef",
+            "foodie/chef",
             "full-stack developer",
           ]}
           typeSpeed={100} 
