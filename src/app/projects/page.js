@@ -5,7 +5,7 @@ import Layout from "../../components/Layout";
 export default function Projects() {
     return (
         <Layout>
-        <div className="min-h-screen flex flex-col items-center py-10 px-4 sm:px-10">
+        <div className="min-h-screen bg-white flex flex-col items-center py-10 px-4 sm:px-10">
             <section className="max-w-3xl w-full text-center mb-12">
                 <h1 className="text-3xl font-semibold text-gray-800 mb-4"> projects </h1>
                 <div className="bg-white shadow-lg rounded-lg p-6 mb-8">

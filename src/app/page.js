@@ -9,7 +9,7 @@ import Layout from '../components/Layout';
 export default function Home() {
   return (
     <Layout>
-    <div className="mt-12 min-h-screen flex flex-col justify-center items-center px-4 sm:px-10">
+    <div className="mt-12 bg-white min-h-screen flex flex-col justify-center items-center px-4 sm:px-10">
       {/* header section */}
       <section className="text-center mb-12"> 
         <h1 className="text-4xl font-bold text-gray-800 mb-4"> hello there, i'm sukie </h1>

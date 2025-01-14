@@ -6,7 +6,7 @@ import Layout from "../../components/Layout";
 export default function Eats() {
     return (
     <Layout>
-        <div className="min-h-screen flex flex-col items-center py-10 px-4 sm:px-10">
+        <div className="min-h-screen bg-white flex flex-col items-center py-10 px-4 sm:px-10">
             
             {/* introduction to page */}
             <section className="text-center max-w-3xl w-full mb-12">

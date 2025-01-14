@@ -6,7 +6,7 @@ import Layout from "../../components/Layout";
 export default function Experience() {
     return (
         <Layout>
-        <div className="min-h-screen flex flex-col items-center py-10 px-4 sm:px-10">
+        <div className="min-h-screen bg-white flex flex-col items-center py-10 px-4 sm:px-10">
             {/* professional experience section */}
             <section className="max-w-3xl w-full text-center mb-12">
                 <h1 className="text-3xl font-semibold text-gray-800 mb-4"> professional experience </h1>
