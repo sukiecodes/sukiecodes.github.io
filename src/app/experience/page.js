@@ -69,7 +69,7 @@ export default function Experience() {
             
             {/* achievements/organizations section */}
             <section className="max-w-3xl w-full text-center mb-12">
-                <h1 className="text-3xl font-semibold text-gray-800 mb-4"> achivements/organizations </h1>
+                <h1 className="text-3xl font-semibold text-gray-800 mb-4"> achievements/organizations </h1>
                 <ul className="list-disc list-inside text-left space-y-2 bg-white shadow-lg rounded-lg p-6 mb-8">
                     <li className="text-lg text-gray-700"> rewriting the code </li>
                     <li className="text-lg text-gray-700"> codepath (iOS development) </li>

@@ -23,7 +23,7 @@ export default function Eats() {
             <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 mb-12">
             {/* new york city */}
             <section className="max-w-3xl text-center mb-12">
-                <h2 className="text-2xl font-semibold text-gray-800 mb-4"> new york, ny </h2>
+                <h2 className="text-2xl font-semibold text-gray-800 mb-4"> nyc </h2>
                 <ul className="list-disc list-inside text-left space-y-2 bg-pink-700 shadow-lg rounded-lg p-6 mb-8">
                     <li className="text-lg text-white"> shanghai you garden </li>
                     <li className="text-lg text-white"> makimaki sushi </li>
@@ -35,7 +35,7 @@ export default function Eats() {
 
             {/* bay area */}
             <section className="max-w-3xl text-center mb-12">
-                <h2 className="text-2xl font-semibold text-gray-800 mb-4"> bay area, ca </h2>
+                <h2 className="text-2xl font-semibold text-gray-800 mb-4"> bay area </h2>
                 <ul className="list-disc list-inside text-left space-y-2 bg-rose-400 shadow-lg rounded-lg p-6 mb-8">
                     <li className="text-lg text-white"> capital </li>
                     <li className="text-lg text-white"> saigon seafood harbor </li>
@@ -47,7 +47,7 @@ export default function Eats() {
 
             {/* seattle + bellevue */}
             <section className="max-w-3xl text-center mb-12">
-                <h2 className="text-2xl font-semibold text-gray-800 mb-4"> seattle, wa + bellevue, wa </h2>
+                <h2 className="text-2xl font-semibold text-gray-800 mb-4"> seattle + bellevue </h2>
                 <ul className="list-disc list-inside text-left space-y-2 bg-pink-400 shadow-lg rounded-lg p-6 mb-8">
                     <li className="text-lg text-white"> fern thai eatery & bar </li>
                     <li className="text-lg text-white"> royal kitchen chinese restaurant </li>
@@ -59,7 +59,7 @@ export default function Eats() {
 
             {/* la + san diego + malibu */}
             <section className="max-w-3xl text-center mb-12">
-                <h2 className="text-2xl font-semibold text-gray-800 mb-4"> southern california </h2>
+                <h2 className="text-2xl font-semibold text-gray-800 mb-4"> socal </h2>
                 <ul className="list-disc list-inside text-left space-y-2 bg-pink-800 shadow-lg rounded-lg p-6 mb-8">
                     <li className="text-lg text-white"> yokohama yakitori koubou </li>
                     <li className="text-lg text-white"> malibu farm pier cafe </li>
@@ -70,7 +70,7 @@ export default function Eats() {
 
             {/* boston */}
             <section className="max-w-3xl text-center mb-12">
-                <h2 className="text-2xl font-semibold text-gray-800 mb-4"> boston, ma </h2>
+                <h2 className="text-2xl font-semibold text-gray-800 mb-4"> boston </h2>
                 <ul className="list-disc list-inside text-left space-y-2 bg-rose-600 shadow-lg rounded-lg p-6 mb-8">
                     <li className="text-lg text-white"> mountain house boston 川山甲 </li>
                     <li className="text-lg text-white"> banh mi ok </li>
@@ -82,7 +82,7 @@ export default function Eats() {
 
             {/* rochester */}
             <section className="max-w-3xl text-center mb-12">
-                <h2 className="text-2xl font-semibold text-gray-800 mb-4"> rochester, ny </h2>
+                <h2 className="text-2xl font-semibold text-gray-800 mb-4"> rochester </h2>
                 <ul className="list-disc list-inside text-left space-y-2 bg-rose-900 shadow-lg rounded-lg p-6 mb-8">
                     <li className="text-lg text-white"> szechuan opera </li>
                     <li className="text-lg text-white"> tsingtao house </li>
@@ -94,7 +94,7 @@ export default function Eats() {
             
             {/* canada */}
             <section className="max-w-3xl text-center mb-12">
-                <h2 className="text-2xl font-semibold text-gray-800 mb-4"> canada </h2>
+                <h2 className="text-2xl font-semibold text-gray-800 mb-4"> toronto + vancouver </h2>
                 <ul className="list-disc list-inside text-left space-y-2 bg-pink-500 shadow-lg rounded-lg p-6 mb-8">
                     <li className="text-lg text-white"> nook </li>
                     <li className="text-lg text-white"> sen pad thai </li>
