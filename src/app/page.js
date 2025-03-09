@@ -19,7 +19,7 @@ export default function Home() {
             "creative",
             "student",
             "foodie/chef",
-            "full-stack developer",
+            "android developer",
           ]}
           typeSpeed={100} 
           backSpeed={50} 
@@ -32,7 +32,7 @@ export default function Home() {
       
       {/* about me */}
       <section className="text-center mb-12 max-w-2xl">
-          <h2 className="text-3xl font-semibold text-gray-800 mb-4"> welcome to my corner of the internet! thanks for stopping by 🌷 </h2>
+          <h2 className="text-3xl font-semibold text-gray-800 mb-4"> welcome to my corner of the internet! thanks for stopping by 🌷🌟🍓 </h2>
           <p className="text-lg text-gray-600">
           i am a junior at boston university studying computer science, originally from new york city. 
           growing up as a first-generation + low-income student, i’ve experienced the challenges of navigating 

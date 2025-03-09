@@ -10,6 +10,23 @@ export default function Experience() {
             {/* professional experience section */}
             <section className="max-w-3xl w-full text-center mb-12">
                 <h1 className="text-3xl font-semibold text-gray-800 mb-4"> professional experience </h1>
+                {/* break through tech */}
+                <div className="flex items-center p-4 bg-white shadow-md rounded-lg space-x-4 mb-6">
+                    <div className="flex items-center justify-center w-40 h-40">
+                        <Image
+                            src="/images/btt-logo.jpg" 
+                            alt="break through tech"
+                            width={100} 
+                            height={100} 
+                            className="object-contain"
+                        />
+                    </div>
+                    <div>
+                        <h2 className="text-2xl font-medium text-gray-900"> ai/ml fellow @ break through tech </h2>
+                        <p className="text-gray-600"> boston, ma </p>
+                        <p className="text-gray-600"> 2025-26 academic year cohort </p>
+                    </div>
+                </div>
                 {/* liberty mutual */}
                 <div className="flex items-center p-4 bg-white shadow-md rounded-lg space-x-4 mb-6">
                     <div className="flex items-center justify-center w-40 h-40">
@@ -36,7 +53,7 @@ export default function Experience() {
                 <div className="flex items-center p-4 bg-white shadow-md rounded-lg space-x-4 mb-6">
                     <div className="flex items-center justify-center w-40 h-40">
                         <Image
-                            src="/images/wics-logo.png"
+                            src="/images/wics-logo.jpg"
                             alt="bu wics"
                             width={100} 
                             height={100} 
@@ -72,9 +89,8 @@ export default function Experience() {
                 <h1 className="text-3xl font-semibold text-gray-800 mb-4"> achievements/organizations </h1>
                 <ul className="list-disc list-inside text-left space-y-2 bg-white shadow-lg rounded-lg p-6 mb-8">
                     <li className="text-lg text-gray-700"> rewriting the code </li>
-                    <li className="text-lg text-gray-700"> codepath (iOS development) </li>
                     <li className="text-lg text-gray-700"> presidential scholarship recipient (rit 2022-2024, transferred) </li>
-                    <li className="text-lg text-gray-700"> academy of math and programming scholar (jane street 2022) </li>
+                    <li className="text-lg text-gray-700"> jane street academy of math and programming scholar (2022) </li>
                 </ul>
             </section>
         </div>

@@ -28,7 +28,7 @@ export default function Eats() {
                     <li className="text-lg text-white"> shanghai you garden </li>
                     <li className="text-lg text-white"> makimaki sushi </li>
                     <li className="text-lg text-white"> take 31 </li>
-                    <li className="text-lg text-white"> sam won gahk </li>
+                    <li className="text-lg text-white"> cho dang gol </li>
                     <li className="text-lg text-white"> little ruby's east village </li>
                 </ul>
             </section>
