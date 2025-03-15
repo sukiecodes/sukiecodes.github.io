@@ -11,20 +11,19 @@ export default function Experience() {
             <section className="max-w-3xl w-full text-center mb-12">
                 <h1 className="text-3xl font-semibold text-gray-800 mb-4"> professional experience </h1>
                 {/* break through tech */}
-                <div className="flex items-center p-4 bg-white shadow-md rounded-lg space-x-4 mb-6">
+                <div className="flex items-center p-4 bg-white shadow-md rounded-lg space-x-12 mb-6">
                     <div className="flex items-center justify-center w-40 h-40">
                         <Image
                             src="/images/btt-logo.jpg" 
                             alt="break through tech"
-                            width={100} 
-                            height={100} 
+                            width={150} 
+                            height={150} 
                             className="object-contain"
                         />
                     </div>
                     <div>
                         <h2 className="text-2xl font-medium text-gray-900"> ai/ml fellow @ break through tech </h2>
-                        <p className="text-gray-600"> boston, ma </p>
-                        <p className="text-gray-600"> 2025-26 academic year cohort </p>
+                        <p className="text-gray-600"> boston, ma | 2025-26 academic year cohort </p>
                     </div>
                 </div>
                 {/* liberty mutual */}
@@ -33,8 +32,8 @@ export default function Experience() {
                         <Image
                             src="/images/liberty-mutual-logo.png" 
                             alt="liberty mutual"
-                            width={100} 
-                            height={100} 
+                            width={150} 
+                            height={150} 
                             className="object-contain"
                         />
                     </div>
@@ -55,8 +54,8 @@ export default function Experience() {
                         <Image
                             src="/images/wics-logo.jpg"
                             alt="bu wics"
-                            width={100} 
-                            height={100} 
+                            width={150} 
+                            height={150} 
                             className="object-contain"
                         />
                     </div>
