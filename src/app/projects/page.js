@@ -11,21 +11,23 @@ export default function Projects() {
                 {/* projects section */}
                 <h1 className="text-3xl font-semibold text-gray-800 mb-4"> projects </h1>
 
-                {/* budget buddy */}
+                {/* timeless trails */}
                 <div className="flex items-center p-4 bg-white shadow-md rounded-lg space-x-4 mb-6">
                     <div className="flex items-center justify-center w-40 h-40">
                         <Image
-                            src="/images/budget-buddy-logo.png" 
-                            alt="budget buddy"
+                            src="/images/timeless-trails-logo.png" 
+                            alt="timeless trails"
                             width={100} 
                             height={100} 
                             className="object-contain"
                         />
                     </div>
                     <div>
-                    <h2 className="text-2xl font-medium text-gray-900"> budget buddy  (feb 2025 - present) </h2>
-                        <p className="text-gray-600"> <strong>technologies: kotlin, android studio, jetpack compose, room persistence library</strong></p>
-                        <p className="text-gray-600"> a personal finance tracking app with a visual spending analysis, users can categorize inputted purchases and allocate percentages of their income to categories</p>
+                    <h2 className="text-2xl font-medium text-gray-900 mb-3"> 
+                        <a href="https://github.com/chenyu51735/cs-501-project" target="_blank" rel="noopener noreferrer">timeless trails  (jan 2025 - may 2025) </a>
+                    </h2>
+                        <p className="text-gray-600"> <strong>technologies: kotlin, android studio, jetpack compose, room persistence library, gemini api, mediawiki api, mapbox maps sdk</strong></p>
+                        <p className="text-gray-600"> an interactive and customizable map travel journal, allowing you to discover history at your feet </p>
                     </div>
                 </div>
             </section>

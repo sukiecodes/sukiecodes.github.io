@@ -11,7 +11,15 @@ export default function Home() {
     <Layout>
     <div className="mt-12 bg-white min-h-screen flex flex-col justify-center items-center px-4 sm:px-10">
       {/* header section */}
-      <section className="text-center mb-12"> 
+      <section className="flex items-center"> 
+          <Image
+            src="/favicon.ico"
+            alt="logo"
+            width={200}  
+            height={200}
+            className="rounded-full hover:opacity-80 mr-8"
+          />
+        <div>
         <h1 className="text-4xl font-bold text-gray-800 mb-4"> hello there, i'm sukie </h1>
         <ReactTyped 
           strings={[
@@ -25,8 +33,12 @@ export default function Home() {
           backSpeed={50} 
           backDelay={1000} 
           loop={true} 
-          className="text-4xl font-bold text-gray-800 mb-4"
+          className="text-4xl font-bold text-gray-800"
         />
+        </div>
+      </section>
+
+      <section className="text-center mb-8 max-w-2xl">
         <p className="mt-5 text-lg italic text-gray-700">passionate about approaching technology from a humanistic perspective</p>
       </section>
       
@@ -34,7 +46,7 @@ export default function Home() {
       <section className="text-center mb-12 max-w-2xl">
           <h2 className="text-3xl font-semibold text-gray-800 mb-4"> welcome to my corner of the internet! thanks for stopping by 🌷🌟🍓 </h2>
           <p className="text-lg text-gray-600">
-          i am a junior at boston university studying computer science, originally from new york city. 
+          i am a rising senior at boston university studying computer science, originally from new york city. 
           growing up as a first-generation + low-income student, i’ve experienced the challenges of navigating 
           a world where resources and representation are often limited. i believe technology, when approached 
           with empathy and a human-centered mindset, has the power to bridge gaps and amplify marginalized voices. 

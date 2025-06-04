@@ -10,6 +10,22 @@ export default function Experience() {
             {/* professional experience section */}
             <section className="max-w-3xl w-full text-center mb-12">
                 <h1 className="text-3xl font-semibold text-gray-800 mb-4"> professional experience </h1>
+                {/* fidelity investments */}
+                <div className="flex items-center p-4 bg-white shadow-md rounded-lg space-x-12 mb-6">
+                    <div className="flex items-center justify-center w-40 h-40">
+                        <Image
+                            src="/images/fidelity-logo.png" 
+                            alt="fidelity"
+                            width={150} 
+                            height={150} 
+                            className="object-contain"
+                        />
+                    </div>
+                    <div>
+                        <h2 className="text-2xl font-medium text-gray-900"> software engineer intern at fidelity investments</h2>
+                        <p className="text-gray-600"> jersey city, nj | jun 2025 - present </p>
+                    </div>
+                </div>
                 {/* break through tech */}
                 <div className="flex items-center p-4 bg-white shadow-md rounded-lg space-x-12 mb-6">
                     <div className="flex items-center justify-center w-40 h-40">
@@ -22,8 +38,8 @@ export default function Experience() {
                         />
                     </div>
                     <div>
-                        <h2 className="text-2xl font-medium text-gray-900"> ai/ml fellow @ break through tech </h2>
-                        <p className="text-gray-600"> boston, ma | 2025-26 academic year cohort </p>
+                        <h2 className="text-2xl font-medium text-gray-900"> break through tech ai/ml fellow at mit </h2>
+                        <p className="text-gray-600"> cambridge, ma | 2025-26 academic year cohort </p>
                     </div>
                 </div>
                 {/* liberty mutual */}
@@ -38,9 +54,8 @@ export default function Experience() {
                         />
                     </div>
                     <div>
-                        <h2 className="text-2xl font-medium text-gray-900"> software engineer intern @ liberty mutual insurance </h2>
+                        <h2 className="text-2xl font-medium text-gray-900"> software engineer intern at liberty mutual insurance </h2>
                         <p className="text-gray-600"> seattle, wa | may 2024 - aug 2024 </p>
-                        <p className="text-gray-600"> summer 2024 techstart internship program 🗽🌟 </p>
                     </div>
                 </div>
             </section>
@@ -60,7 +75,7 @@ export default function Experience() {
                         />
                     </div>
                     <div>
-                        <h2 className="text-2xl font-medium text-gray-900"> external outreach director @ bu women in cs </h2>
+                        <h2 className="text-2xl font-medium text-gray-900"> external outreach director at bu women in cs </h2>
                         <p className="text-gray-600"> boston, ma | sep 2024 - present </p>
                     </div>
                 </div>
@@ -77,7 +92,7 @@ export default function Experience() {
                         />
                     </div>
                     <div>
-                        <h2 className="text-2xl font-medium text-gray-900"> resident advisor @ rit center for residence life </h2>
+                        <h2 className="text-2xl font-medium text-gray-900"> resident advisor at rit center for residence life </h2>
                         <p className="text-gray-600"> rochester, ny | aug 2023 - may 2024 </p>
                     </div>
                 </div>
