@@ -10,7 +10,7 @@ export default function Eats() {
             
             {/* introduction to page */}
             <section className="text-center max-w-3xl w-full mb-12">
-                <h1 className="text-3xl font-semibold text-gray-800 mb-4"> good eats </h1>
+                <h1 className="text-3xl font-semibold text-gray-800 mb-4"> Good Eats </h1>
                 <p className="text-lg text-gray-600 mb-4"> 
                     One of my biggest hobbies is trying new restaurants and cafés! 🍽️ 
                 </p>
@@ -94,7 +94,7 @@ export default function Eats() {
             
             {/* canada */}
             <section className="max-w-3xl text-center mb-12">
-                <h2 className="text-2xl font-semibold text-gray-800 mb-4"> Toronto + Cancouver </h2>
+                <h2 className="text-2xl font-semibold text-gray-800 mb-4"> Toronto + Vancouver </h2>
                 <ul className="list-disc list-inside text-left space-y-2 bg-pink-500 shadow-lg rounded-lg p-6 mb-8">
                     <li className="text-lg text-white"> Nook </li>
                     <li className="text-lg text-white"> Sen Pad Thai </li>
