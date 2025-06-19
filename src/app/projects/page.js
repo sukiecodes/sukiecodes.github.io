@@ -9,7 +9,18 @@ export default function Projects() {
         <div className="min-h-screen bg-white flex flex-col items-center py-10 px-4 sm:px-10">
             <section className="max-w-3xl w-full text-center mb-12">
                 {/* projects section */}
-                <h1 className="text-3xl font-semibold text-gray-800 mb-4"> projects </h1>
+                <h1 className="text-3xl font-semibold text-gray-800 mb-4"> Projects </h1>
+
+                {/* flour power */}
+                <div className="items-center p-4 bg-white shadow-md rounded-lg space-x-4 mb-6">
+                    <div>
+                    <h2 className="text-2xl font-medium text-gray-900 mb-3"> 
+                        <a href="https://github.com/sukiecodes/flour-power" target="_blank" rel="noopener noreferrer">Flour Power  (May 2025 - present) </a>
+                    </h2>
+                        <p className="text-gray-600"> <strong>Technologies: Next.js, Node.js, MongoDB Atlas</strong></p>
+                        <p className="text-gray-600"> A full-stack recipe sharing platform for aspiring chefs and bakers, with remote data persistence </p>
+                    </div>
+                </div>
 
                 {/* timeless trails */}
                 <div className="flex items-center p-4 bg-white shadow-md rounded-lg space-x-4 mb-6">
@@ -24,17 +35,17 @@ export default function Projects() {
                     </div>
                     <div>
                     <h2 className="text-2xl font-medium text-gray-900 mb-3"> 
-                        <a href="https://github.com/chenyu51735/cs-501-project" target="_blank" rel="noopener noreferrer">timeless trails  (jan 2025 - may 2025) </a>
+                        <a href="https://github.com/chenyu51735/cs-501-project" target="_blank" rel="noopener noreferrer">Timeless Trails  (Jan 2025 - May 2025) </a>
                     </h2>
-                        <p className="text-gray-600"> <strong>technologies: kotlin, android studio, jetpack compose, room persistence library, gemini api, mediawiki api, mapbox maps sdk</strong></p>
-                        <p className="text-gray-600"> an interactive and customizable map travel journal, allowing you to discover history at your feet </p>
+                        <p className="text-gray-600"> <strong>Technologies: Kotlin, Jetpack Compose, Room Persistence Library, Gemini API, MediaWiki API, Maps SDK</strong></p>
+                        <p className="text-gray-600"> An interactive and customizable map travel journal, allowing you to discover history at your feet </p>
                     </div>
                 </div>
             </section>
             
             {/* skills section */}
             <section className="max-w-3xl w-full text-center mb-12">
-                <h1 className="text-3xl font-semibold text-gray-800 mb-4"> technical skills </h1>
+                <h1 className="text-3xl font-semibold text-gray-800 mb-4"> Technical Skills </h1>
                     <div className="flex items-center justify-center space-x-6">
                         <Image
                             src="/images/python-logo.png" 

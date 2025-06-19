@@ -12,10 +12,10 @@ export default function Eats() {
             <section className="text-center max-w-3xl w-full mb-12">
                 <h1 className="text-3xl font-semibold text-gray-800 mb-4"> good eats </h1>
                 <p className="text-lg text-gray-600 mb-4"> 
-                    one of my biggest hobbies is trying new restaurants and cafés! 🍽️ 
+                    One of my biggest hobbies is trying new restaurants and cafés! 🍽️ 
                 </p>
                 <p className="text-lg text-gray-600 mb-4"> 
-                    here are some of my favorite bites and sips from places i've been to 🌎
+                    Here are some of my favorite bites and sips from places i've been to 🌎
                 </p>
             </section>
 
@@ -23,88 +23,88 @@ export default function Eats() {
             <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 mb-12">
             {/* new york city */}
             <section className="max-w-3xl text-center mb-12">
-                <h2 className="text-2xl font-semibold text-gray-800 mb-4"> nyc </h2>
+                <h2 className="text-2xl font-semibold text-gray-800 mb-4"> NYC </h2>
                 <ul className="list-disc list-inside text-left space-y-2 bg-pink-700 shadow-lg rounded-lg p-6 mb-8">
-                    <li className="text-lg text-white"> shanghai you garden </li>
-                    <li className="text-lg text-white"> makimaki sushi </li>
-                    <li className="text-lg text-white"> take 31 </li>
-                    <li className="text-lg text-white"> cho dang gol </li>
-                    <li className="text-lg text-white"> little ruby's east village </li>
+                    <li className="text-lg text-white"> Shanghai You Garden </li>
+                    <li className="text-lg text-white"> MakiMaki Sushi </li>
+                    <li className="text-lg text-white"> Take 31 </li>
+                    <li className="text-lg text-white"> Cho Dang Gol </li>
+                    <li className="text-lg text-white"> Little Ruby's East Village </li>
                 </ul>
             </section>
 
             {/* bay area */}
             <section className="max-w-3xl text-center mb-12">
-                <h2 className="text-2xl font-semibold text-gray-800 mb-4"> bay area </h2>
+                <h2 className="text-2xl font-semibold text-gray-800 mb-4"> Bay Area </h2>
                 <ul className="list-disc list-inside text-left space-y-2 bg-rose-400 shadow-lg rounded-lg p-6 mb-8">
-                    <li className="text-lg text-white"> capital </li>
-                    <li className="text-lg text-white"> saigon seafood harbor </li>
-                    <li className="text-lg text-white"> pocha k </li>
-                    <li className="text-lg text-white"> phở nhy </li>
-                    <li className="text-lg text-white"> bún bò huế an nam </li>
+                    <li className="text-lg text-white"> Capital </li>
+                    <li className="text-lg text-white"> Saigon Seafood Harbor </li>
+                    <li className="text-lg text-white"> Pocha K </li>
+                    <li className="text-lg text-white"> Phở Nhy </li>
+                    <li className="text-lg text-white"> Bún Bò Huế An Nam </li>
                 </ul>
             </section>
 
             {/* seattle + bellevue */}
             <section className="max-w-3xl text-center mb-12">
-                <h2 className="text-2xl font-semibold text-gray-800 mb-4"> seattle + bellevue </h2>
+                <h2 className="text-2xl font-semibold text-gray-800 mb-4"> Seattle + Bellevue </h2>
                 <ul className="list-disc list-inside text-left space-y-2 bg-pink-400 shadow-lg rounded-lg p-6 mb-8">
-                    <li className="text-lg text-white"> fern thai eatery & bar </li>
-                    <li className="text-lg text-white"> royal kitchen chinese restaurant </li>
-                    <li className="text-lg text-white"> supreme dumplings </li>
-                    <li className="text-lg text-white"> bruciato </li>
-                    <li className="text-lg text-white"> tanoor seattle </li>
+                    <li className="text-lg text-white"> Fern Thai Eatery & Bar </li>
+                    <li className="text-lg text-white"> Royal Kitchen Chinese Restaurant </li>
+                    <li className="text-lg text-white"> Supreme Dumplings </li>
+                    <li className="text-lg text-white"> Bruciato </li>
+                    <li className="text-lg text-white"> tanoor Seattle </li>
                 </ul>
             </section>
 
             {/* la + san diego + malibu */}
             <section className="max-w-3xl text-center mb-12">
-                <h2 className="text-2xl font-semibold text-gray-800 mb-4"> socal </h2>
+                <h2 className="text-2xl font-semibold text-gray-800 mb-4"> SoCal </h2>
                 <ul className="list-disc list-inside text-left space-y-2 bg-pink-800 shadow-lg rounded-lg p-6 mb-8">
-                    <li className="text-lg text-white"> yokohama yakitori koubou </li>
-                    <li className="text-lg text-white"> malibu farm pier cafe </li>
-                    <li className="text-lg text-white"> mo-mo-paradise </li>
-                    <li className="text-lg text-white"> pot of cha </li>
+                    <li className="text-lg text-white"> Yokohama Yakitori Koubou </li>
+                    <li className="text-lg text-white"> Malibu Farm Pier Cafe </li>
+                    <li className="text-lg text-white"> Mo-Mo-Paradise </li>
+                    <li className="text-lg text-white"> Pot of Cha </li>
                 </ul>
             </section>
 
             {/* boston */}
             <section className="max-w-3xl text-center mb-12">
-                <h2 className="text-2xl font-semibold text-gray-800 mb-4"> boston </h2>
+                <h2 className="text-2xl font-semibold text-gray-800 mb-4"> Boston </h2>
                 <ul className="list-disc list-inside text-left space-y-2 bg-rose-600 shadow-lg rounded-lg p-6 mb-8">
-                    <li className="text-lg text-white"> mountain house boston 川山甲 </li>
-                    <li className="text-lg text-white"> banh mi ok </li>
-                    <li className="text-lg text-white"> maruichi select </li>
-                    <li className="text-lg text-white"> giggling rice </li>
-                    <li className="text-lg text-white"> shy bird - south boston </li>
+                    <li className="text-lg text-white"> Mountain House Boston 川山甲 </li>
+                    <li className="text-lg text-white"> Banh Mi Ok </li>
+                    <li className="text-lg text-white"> JiangNan Boston </li>
+                    <li className="text-lg text-white"> Giggling Rice </li>
+                    <li className="text-lg text-white"> Shy Bird </li>
                 </ul>
             </section>
 
             {/* rochester */}
             <section className="max-w-3xl text-center mb-12">
-                <h2 className="text-2xl font-semibold text-gray-800 mb-4"> rochester </h2>
+                <h2 className="text-2xl font-semibold text-gray-800 mb-4"> Rochester </h2>
                 <ul className="list-disc list-inside text-left space-y-2 bg-rose-900 shadow-lg rounded-lg p-6 mb-8">
-                    <li className="text-lg text-white"> szechuan opera </li>
-                    <li className="text-lg text-white"> tsingtao house </li>
-                    <li className="text-lg text-white"> seoul drop </li>
-                    <li className="text-lg text-white"> coco garden </li>
-                    <li className="text-lg text-white"> boba mi </li>
+                    <li className="text-lg text-white"> Szechuan Opera </li>
+                    <li className="text-lg text-white"> Tsingtao House </li>
+                    <li className="text-lg text-white"> Seoul Drop </li>
+                    <li className="text-lg text-white"> Coco Garden </li>
+                    <li className="text-lg text-white"> Boba Mi </li>
                 </ul>
             </section>
             
             {/* canada */}
             <section className="max-w-3xl text-center mb-12">
-                <h2 className="text-2xl font-semibold text-gray-800 mb-4"> toronto + vancouver </h2>
+                <h2 className="text-2xl font-semibold text-gray-800 mb-4"> Toronto + Cancouver </h2>
                 <ul className="list-disc list-inside text-left space-y-2 bg-pink-500 shadow-lg rounded-lg p-6 mb-8">
-                    <li className="text-lg text-white"> nook </li>
-                    <li className="text-lg text-white"> sen pad thai </li>
-                    <li className="text-lg text-white"> the works craft burgers & beer </li>
-                    <li className="text-lg text-white"> la bise bakery </li>
+                    <li className="text-lg text-white"> Nook </li>
+                    <li className="text-lg text-white"> Sen Pad Thai </li>
+                    <li className="text-lg text-white"> The Works Craft Burgers & Beer </li>
+                    <li className="text-lg text-white"> La Bise Bakery </li>
                 </ul>
             </section>
             </section>
 
-            <p className="text-lg text-gray-600 mb-6"> check out my beli for more 🫖 </p>
+            <p className="text-lg text-gray-600 mb-6"> Check out my beli for more 🫖 </p>
              <a 
                 href="https://beliapp.co/app/sukiezh" 
                 target="_blank"
