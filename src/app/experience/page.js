@@ -10,22 +10,6 @@ export default function Experience() {
             {/* professional experience section */}
             <section className="max-w-3xl w-full text-center mb-12">
                 <h1 className="text-3xl font-semibold text-gray-800 mb-4"> Professional Experience </h1>
-                {/* fidelity investments */}
-                <div className="flex items-center p-4 bg-white shadow-md rounded-lg space-x-12 mb-6">
-                    <div className="flex items-center justify-center w-40 h-40">
-                        <Image
-                            src="/images/fidelity-logo.png" 
-                            alt="fidelity"
-                            width={150} 
-                            height={150} 
-                            className="object-contain"
-                        />
-                    </div>
-                    <div>
-                        <h2 className="text-2xl font-medium text-gray-900"> Software Engineer Intern at Fidelity Investments</h2>
-                        <p className="text-gray-600"> Jersey City, NJ | Jun 2025 - present </p>
-                    </div>
-                </div>
                 {/* break through tech */}
                 <div className="flex items-center p-4 bg-white shadow-md rounded-lg space-x-12 mb-6">
                     <div className="flex items-center justify-center w-40 h-40">
@@ -40,6 +24,22 @@ export default function Experience() {
                     <div>
                         <h2 className="text-2xl font-medium text-gray-900"> Break Through Tech AI/ML Fellow at MIT </h2>
                         <p className="text-gray-600"> Cambridge, MA | May 2025 - present </p>
+                    </div>
+                </div>
+                {/* fidelity investments */}
+                <div className="flex items-center p-4 bg-white shadow-md rounded-lg space-x-12 mb-6">
+                    <div className="flex items-center justify-center w-40 h-40">
+                        <Image
+                            src="/images/fidelity-logo.png" 
+                            alt="fidelity"
+                            width={150} 
+                            height={150} 
+                            className="object-contain"
+                        />
+                    </div>
+                    <div>
+                        <h2 className="text-2xl font-medium text-gray-900"> Software Engineer Intern at Fidelity Investments</h2>
+                        <p className="text-gray-600"> Jersey City, NJ | Jun 2025 - Aug 2025 </p>
                     </div>
                 </div>
                 {/* liberty mutual */}

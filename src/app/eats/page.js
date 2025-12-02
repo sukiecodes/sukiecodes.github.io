@@ -25,10 +25,10 @@ export default function Eats() {
             <section className="max-w-3xl text-center mb-12">
                 <h2 className="text-2xl font-semibold text-gray-800 mb-4"> NYC </h2>
                 <ul className="list-disc list-inside text-left space-y-2 bg-pink-700 shadow-lg rounded-lg p-6 mb-8">
-                    <li className="text-lg text-white"> Shanghai You Garden </li>
-                    <li className="text-lg text-white"> MakiMaki Sushi </li>
-                    <li className="text-lg text-white"> Take 31 </li>
-                    <li className="text-lg text-white"> Cho Dang Gol </li>
+                    <li className="text-lg text-white"> Scarr's Pizza </li>
+                    <li className="text-lg text-white"> HOJOKBAN NYC </li>
+                    <li className="text-lg text-white"> Birds of a Feather </li>
+                    <li className="text-lg text-white"> konban NYC </li>
                     <li className="text-lg text-white"> Little Ruby's East Village </li>
                 </ul>
             </section>
@@ -38,7 +38,7 @@ export default function Eats() {
                 <h2 className="text-2xl font-semibold text-gray-800 mb-4"> Bay Area </h2>
                 <ul className="list-disc list-inside text-left space-y-2 bg-rose-400 shadow-lg rounded-lg p-6 mb-8">
                     <li className="text-lg text-white"> Capital </li>
-                    <li className="text-lg text-white"> Saigon Seafood Harbor </li>
+                    <li className="text-lg text-white"> Clover Bakery & Cafe </li>
                     <li className="text-lg text-white"> Pocha K </li>
                     <li className="text-lg text-white"> Phở Nhy </li>
                     <li className="text-lg text-white"> Bún Bò Huế An Nam </li>
@@ -73,7 +73,7 @@ export default function Eats() {
                 <h2 className="text-2xl font-semibold text-gray-800 mb-4"> Boston </h2>
                 <ul className="list-disc list-inside text-left space-y-2 bg-rose-600 shadow-lg rounded-lg p-6 mb-8">
                     <li className="text-lg text-white"> Mountain House Boston 川山甲 </li>
-                    <li className="text-lg text-white"> Banh Mi Ok </li>
+                    <li className="text-lg text-white"> RUKA </li>
                     <li className="text-lg text-white"> JiangNan Boston </li>
                     <li className="text-lg text-white"> Giggling Rice </li>
                     <li className="text-lg text-white"> Shy Bird </li>
@@ -88,7 +88,6 @@ export default function Eats() {
                     <li className="text-lg text-white"> Tsingtao House </li>
                     <li className="text-lg text-white"> Seoul Drop </li>
                     <li className="text-lg text-white"> Coco Garden </li>
-                    <li className="text-lg text-white"> Boba Mi </li>
                 </ul>
             </section>
             
