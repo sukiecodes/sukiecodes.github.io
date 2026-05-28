@@ -1,7 +1,6 @@
 "use client";
 
 import React from 'react';
-import { ReactTyped } from 'react-typed';
 import Link from 'next/link';
 import Image from "next/image";
 import Layout from '../components/Layout';
@@ -20,38 +19,18 @@ export default function Home() {
             className="rounded-full hover:opacity-80 mr-8"
           />
         <div>
-        <h1 className="text-4xl font-bold text-gray-800 mb-4"> Hi! I'm Sukie Zhang </h1>
-        <ReactTyped 
-          strings={[
-            "Software Engineer",
-            "Creative",
-            "Student",
-            "Foodie",
-            "Mobile Developer",
-          ]}
-          typeSpeed={100} 
-          backSpeed={50} 
-          backDelay={1000} 
-          loop={true} 
-          className="text-4xl font-bold text-gray-800"
-        />
+        <h1 className="text-4xl font-bold text-gray-800 mb-4"> Sukie Zhang </h1>
         </div>
-      </section>
-
-      <section className="text-center mb-8 max-w-2xl">
-        <p className="mt-5 text-lg italic text-gray-700">Passionate about approaching technology from a humanistic perspective</p>
       </section>
       
       {/* about me */}
-      <section className="text-center mb-12 max-w-2xl">
-          <h2 className="text-3xl font-semibold text-gray-800 mb-4"> Welcome to my corner of the internet! Thanks for stopping by 🌷🌟🍓 </h2>
+      <section className="text-center mb-12 max-w-3xl">
           <p className="text-lg text-gray-600">
-          I am a senior at Boston University studying computer science, originally from NYC. 
-          Growing up as a first-generation + low-income student, I’ve experienced the challenges of navigating 
-          a world where resources and representation are often limited. I believe technology, when approached 
-          with empathy and a human-centered mindset, has the power to bridge gaps and amplify marginalized voices. 
-          My goal is to create tech solutions that prioritize people, especially those who have been overlooked, 
-          and help create a future where everyone has the opportunity to thrive.
+          I’m a software engineer based in NYC and a Boston University alum with a degree in Computer Science. 
+          Passionate about thoughtful, human-centered technology that expands access and creates meaningful impact.
+          Outside of coding, you can find me collecting stickers for my scrapbook 𓄲, 
+          eating copious amounts of frozen yogurt (๑ᵔ⤙ᵔ๑), wandering to new restaurants 𓐐, 
+          browsing GoodReads for my next read ꩜, or making new syrups for my daily lattes ִ ࣪𖤐.
           </p>
       </section>
       
@@ -66,12 +45,6 @@ export default function Home() {
         <Link href="/projects">
           <button className="bg-rose-300 text-white py-2 px-6 rounded-full transition duration-200 hover:bg-rose-400">
             projects
-          </button>
-        </Link>
-
-        <Link href="/eats">
-          <button className="bg-rose-300 text-white py-2 px-6 rounded-full transition duration-200 hover:bg-rose-400">
-            eats
           </button>
         </Link>
       </section>
@@ -107,22 +80,6 @@ export default function Home() {
             alt="github"
             width={40} 
             height={40} 
-            className="rounded-full hover:opacity-80"
-          />
-        </a>
-
-        {/* beli logo button */}
-        <a 
-          href="https://beliapp.co/app/sukiezh" 
-          target="_blank"
-          rel="noopener noreferrer"
-          className="transition transform hover:scale-105 hover:shadow-lg"
-        >
-          <Image
-            src="/images/beli-logo.png" 
-            alt="beli"
-            width={40} 
-            height={40}
             className="rounded-full hover:opacity-80"
           />
         </a>
