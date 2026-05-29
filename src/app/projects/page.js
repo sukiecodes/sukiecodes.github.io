@@ -12,7 +12,7 @@ export default function Projects() {
         {/* PROJECTS */}
         <section className="mb-14">
           <div className="flex items-center gap-4 mb-8">
-            <span className="font-caveat text-3xl text-[#e85d7a] font-bold">built works & code</span>
+            <span className="font-caveat text-3xl text-[#e85d7a] font-bold">my work</span>
             <div className="flex-1 h-[1px] bg-[#c89678]/25"></div>
           </div>
 
@@ -68,27 +68,6 @@ export default function Projects() {
                   <span className="bg-[#e2f4e8] text-[#2d7a4a] text-[11px] px-2.5 py-0.5 rounded-lg font-medium">Room DB</span>
                   <span className="bg-[#ede8fc] text-[#5840b0] text-[11px] px-2.5 py-0.5 rounded-lg font-medium">Gemini API</span>
                 </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* TECHNICAL SKILLS */}
-        <section className="mb-6">
-          <div className="flex items-center gap-4 mb-8">
-            <span className="font-caveat text-3xl text-[#e85d7a] font-bold">skills & tool belt</span>
-            <div className="flex-1 h-[1px] bg-[#c89678]/25"></div>
-          </div>
-
-          <div className="bg-white border border-[#c89678]/15 rounded-2xl p-8 shadow-sm flex flex-col gap-8 items-center justify-center">
-            <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12">
-              <div className="flex flex-col items-center transform -rotate-2 hover:rotate-0 transition-transform bg-[#fdf6f0]/60 p-3 rounded-xl border border-[#c89678]/10 w-24">
-                <Image src="/images/python-logo.png" alt="python" width={44} height={44} className="object-contain mix-blend-multiply" />
-                <span className="text-[11px] text-[#7a5a48] font-medium mt-1">Python</span>
-              </div>
-              <div className="flex flex-col items-center transform rotate-3 hover:rotate-0 transition-transform bg-[#fdf6f0]/60 p-3 rounded-xl border border-[#c89678]/10 w-24">
-                <Image src="/images/java-logo.png" alt="java" width={44} height={44} className="object-contain mix-blend-multiply" />
-                <span className="text-[11px] text-[#7a5a48] font-medium mt-1">Java</span>
               </div>
             </div>
           </div>
